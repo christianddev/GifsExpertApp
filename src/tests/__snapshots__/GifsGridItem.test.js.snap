@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifsGridItem.tets.js should show GifGridItem 1`] = `
+<div
+  className="card animate__animated animate__headShake"
+>
+  <img
+    alt="titleXD"
+    height="100"
+    src="urlXD"
+    width="200"
+  />
+  <p>
+    titleXD
+  </p>
+</div>
+`;
