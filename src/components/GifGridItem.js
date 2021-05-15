@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import AddCategory from './AddCategory';
 
 const GifGridItem = ({title, url}) => {
     return (
@@ -11,7 +10,7 @@ const GifGridItem = ({title, url}) => {
     )
 }
 
-AddCategory.propTypes = {
+GifGridItem.propTypes = {
     title: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired
 }

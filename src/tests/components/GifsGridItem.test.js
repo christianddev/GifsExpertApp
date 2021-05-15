@@ -1,14 +1,12 @@
-
 import React from 'react';
 import {shallow} from 'enzyme';
-import GifGridItem from '../components/GifGridItem';
+import GifGridItem from '../../components/GifGridItem';
 
 describe('GifsGridItem.tets.js', () => {
-    let wrapper = shallow(<GifGridItem/>);
-
     const title = 'titleXD';
     const url = 'urlXD';
-
+    
+    let wrapper = shallow(<GifGridItem url={url} title={title}/>);
     beforeEach(() => {
         wrapper = shallow(<GifGridItem url={url} title={title}/>);
     });
